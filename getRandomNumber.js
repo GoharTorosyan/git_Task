@@ -3,3 +3,4 @@ function getRandomLetter() {
     let  result = string.charAt(Math.floor(Math.random() * string.length));
     return result;
 }
+consolr.log(getRandomLetter())

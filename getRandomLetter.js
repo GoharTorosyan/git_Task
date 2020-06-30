@@ -1,5 +1,6 @@
-function getRandomNumber () {
-    let number = Math.floor(Math.random() * 10);
-    return number;
+function getRandomLetter() {
+    let string = "thisisstring";
+    let  result = string.charAt(Math.floor(Math.random() * string.length));
+    return result;
 }
-console.log(getRandomNumber ());
+console.log(getRandomLetter());
